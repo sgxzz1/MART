@@ -1,6 +1,14 @@
+```markdown
 # MART
-1.
-pip install -r requirements.txt
-2.
-python MART.py
-Notes:Because of the limitation of size of file, so I have to spilt new_dma_train into 6 files.
+
+1. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. 运行程序：
+   ```bash
+   python MART.py
+   ```
+
+**注意事项**：由于文件大小限制，已将 `new_dma_train` 分割为6个文件。

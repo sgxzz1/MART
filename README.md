@@ -3,12 +3,16 @@
 ## 1. 安装依赖
 ```bash
 pip install -r requirements.txt
-2. 模型训练
-   ```
-   在config.py文件中有关于模型是否训练以及组件相关是否使用的参数设置，主要部分是retrain(true表示训练模型，false则会直接开始推理)，DisLoss和AssLoss是论文中提及的两个改进
-   ```
-3. 运行程序：
-   ```在参数配置完成后运行下面代码即可
+```
+## 2. 参数设置
+在 `config.py` 中设置以下关键参数：
+
+- `retrain`:  
+  - `True`：从头训练模型  
+  - `False`：跳过训练，直接进行推理
+- `DisLoss` 和 `AssLoss`：启用论文中提出的两种改进损失函数（根据需要开启）
+## 3. 运行程序：
+   ```bash
    python MART.py
    ```
 

@@ -1,10 +1,8 @@
-```markdown
 # MART
 
-1. 安装依赖：
-   ```
-   pip install -r requirements.txt
-   ```
+## 1. 安装依赖
+```bash
+pip install -r requirements.txt
 2. 模型训练
    ```
    在config.py文件中有关于模型是否训练以及组件相关是否使用的参数设置，主要部分是retrain(true表示训练模型，false则会直接开始推理)，DisLoss和AssLoss是论文中提及的两个改进
